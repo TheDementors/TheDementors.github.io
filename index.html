@@ -9,6 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <title>TheDementors</title>
     <style>
       body {
@@ -40,6 +46,16 @@
         font-weight: 400;
       }
 
+      .action-button {
+        color: white;
+        font-size: 3rem;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .action-button:hover {
+        transform: scale(1.5);
+      }
+
       @media only screen and (min-width: 768px) {
         h1 {
           font-size: 11vw;
@@ -58,11 +74,18 @@
         p {
           font-size: 3vw;
         }
+
+        .action-button {
+          font-size: 4rem;
+        }
       }
     </style>
   </head>
   <body>
     <h1>Hello from TheDementors</h1>
     <p>Creating superior Open-Source dimension</p>
+    <a href="https://github.com/TheDementors" class="action-button">
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </a>
   </body>
 </html>
